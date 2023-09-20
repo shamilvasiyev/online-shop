@@ -1,0 +1,75 @@
+.container .product_link {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #f2f2f2;
+}
+.container .product_link a {
+  font-size: 13px;
+  color: black;
+  padding: 0 10px;
+  border-right: 2px solid black;
+}
+.container .product_link a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
+.container .product_info {
+  display: flex;
+}
+.container .product_info .product_image_box {
+  max-width: 45%;
+  padding: 0 15px;
+}
+.container .product_info .product_image_box img {
+  width: 100%;
+}
+.container .product_info .product_info_box {
+  padding: 0 15px;
+}
+.container .product_info .product_info_box .product_header {
+  margin-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.container .product_info .product_info_box .product_header h1 {
+  font-weight: normal;
+  color: #000;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.container .product_info .product_info_box .product_condition {
+  margin-bottom: 10px;
+}
+.container .product_info .product_info_box .product_condition span {
+  color: #888888;
+}
+.container .product_info .product_info_box .product_additional_info p {
+  font-size: 15px;
+  color: #888888;
+  margin-bottom: 10px;
+}
+.container .product_info .product_info_box .price_box {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.container .product_info .product_info_box .price_box span {
+  color: #000;
+}
+.container .product_info .product_info_box .product_availability {
+  margin: 10px 0;
+}
+.container .product_info .product_info_box .product_availability span {
+  padding: 3px 12px;
+  color: white;
+  font-size: 13px;
+  background-color: #4cbb6c;
+}
+.container .similar_procuts_wrapper {
+  margin: 50px 0;
+}/*# sourceMappingURL=SingleProductsPage.module.css.map */

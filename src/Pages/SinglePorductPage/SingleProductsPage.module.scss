@@ -1,0 +1,95 @@
+.container {
+  .product_link {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #f2f2f2;
+
+    a {
+      font-size: 13px;
+      color: black;
+      padding: 0 10px;
+      border-right: 2px solid black;
+
+      &:hover {
+        color: #666666;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .product_info {
+    display: flex;
+
+    .product_image_box {
+      max-width: 45%;
+      padding: 0 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .product_info_box {
+      padding: 0 15px;
+
+      .product_header {
+        margin-top: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #dfdfdf;
+
+        h1 {
+          font-weight: normal;
+          color: #000;
+          font-size: 20px;
+          text-transform: capitalize;
+        }
+      }
+
+      .product_condition {
+        margin-bottom: 10px;
+
+        span {
+          color: #888888;
+        }
+      }
+
+      .product_additional_info {
+        p {
+          font-size: 15px;
+          color: #888888;
+          margin-bottom: 10px;
+        }
+      }
+
+      .price_box {
+        margin-bottom: 6px;
+        font-size: 24px;
+        font-weight: 600;
+        display: inline-block;
+
+        span {
+          color: #000;
+        }
+      }
+
+      .product_availability {
+        margin: 10px 0;
+
+        span {
+          padding: 3px 12px;
+          color: white;
+          font-size: 13px;
+          background-color: #4cbb6c;
+        }
+      }
+    }
+  }
+
+  .similar_procuts_wrapper {
+    margin: 50px 0;
+  }
+}

@@ -1,0 +1,58 @@
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+
+  .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+      margin-bottom: 30px;
+    }
+
+    .store_info {
+      .info_item {
+        margin: 5px 0 15px 0;
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #536a74;
+        }
+      }
+    }
+
+    .footer_links {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin: 5px 0;
+        color: #536a74;
+        transition: 0.3s;
+        font-size: 13px;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .footer_social_media {
+      a {
+        padding: 10px;
+        color: black;
+        border-radius: 50%;
+        background-color: #d9d9d9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+}

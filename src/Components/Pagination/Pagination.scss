@@ -1,0 +1,37 @@
+.pagination_container {
+  display: flex;
+  justify-content: space-between;
+  color: #808080;
+  align-items: center;
+
+  p {
+    font-size: 13px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 0 5px;
+
+      .activePage {
+        background-color: #888888;
+        border: 1px solid #888888;
+      }
+
+      button {
+        padding: 10px 15px;
+        background-color: #000;
+        border: 1px solid #000;
+        transition: 0.4s;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #888888;
+        }
+      }
+    }
+  }
+}

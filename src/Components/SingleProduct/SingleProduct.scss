@@ -1,0 +1,241 @@
+.single_product {
+  display: flex !important;
+  // min-width: 250px;
+  // max-width: 300px;
+  margin: 0 auto;
+  width: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .product_image {
+    width: 100%;
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+
+    a {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: fit-content;
+    }
+
+    .action_buttons {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      opacity: 0;
+      transition: 0.33s ease-in-out;
+      z-index: 9;
+
+      button {
+        margin: 5px 0;
+        border: transparent;
+        cursor: pointer;
+        padding: 8px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        transition: 0.5s ease-out;
+
+        &:hover {
+          background-color: black;
+
+          svg {
+            path {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .action_buttons {
+      opacity: 1;
+      right: 10px;
+    }
+
+    .product_info {
+      a {
+        h5 {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .product_info {
+    text-align: left;
+    font-size: 17px;
+
+    h5 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      margin: 5px 0;
+      color: #888;
+      font-weight: 500;
+      transition: 0.4s;
+    }
+
+    span {
+      font-weight: 700;
+      color: black;
+    }
+  }
+}
+
+.single_product_list {
+  display: flex;
+  // flex-direction: column;
+  height: 300px;
+  margin-bottom: 20px;
+
+  .product_image {
+    // width: 40%;
+    min-width: 250px;
+    max-width: 250px;
+    position: relative;
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    a {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .action_buttons {
+      position: absolute;
+      right: 0;
+      top: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      opacity: 0;
+      transition: 0.33s ease-in-out;
+      z-index: 9;
+
+      button {
+        margin: 5px 0;
+        border: transparent;
+        cursor: pointer;
+        padding: 8px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        transition: 0.5s ease-out;
+
+        &:hover {
+          background-color: black;
+
+          svg {
+            path {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .action_buttons {
+      opacity: 1;
+      right: 10px;
+    }
+
+    .product_info {
+      a {
+        h5 {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .product_info {
+    font-size: 17px;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
+
+    a {
+      h5 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        margin: 5px 0;
+        color: #888;
+        font-weight: 500;
+        transition: 0.4s;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #888;
+        font-size: 20px;
+      }
+    }
+
+    .price_box {
+      font-weight: 700;
+      color: black;
+      margin: 15px 0 !important;
+    }
+
+    .product_desc {
+      margin: 10px 0;
+
+      p {
+        font-size: 13px;
+        color: #888;
+      }
+
+      .stock {
+        margin: 5px 0;
+
+        span {
+          font-size: 13px;
+          color: white;
+          padding: 5px;
+        }
+      }
+
+      .inStock {
+        span {
+          background-color: #4cbb6c;
+        }
+      }
+
+      .outOffStock {
+        span {
+          background-color: red;
+        }
+      }
+    }
+  }
+}

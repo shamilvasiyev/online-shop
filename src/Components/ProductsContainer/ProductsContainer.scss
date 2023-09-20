@@ -1,0 +1,25 @@
+.products_wrapper {
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  // gap: 20px 30px;
+  margin: 20px 0;
+  // position: relative;
+
+  .slick-slide {
+    height: 100%;
+  }
+
+  // .products_container {
+  //   height: 100%;
+  // }
+
+  .products_link {
+    background-color: #ccc;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

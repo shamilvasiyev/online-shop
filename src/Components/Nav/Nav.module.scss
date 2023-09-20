@@ -1,0 +1,56 @@
+nav {
+  border-bottom: 1px solid #e8e8e8;
+
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .logo_box {
+      img {
+        max-width: 150px;
+      }
+    }
+
+    .nav_links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        font-size: 16px;
+        padding: 5px;
+        margin: 0 5px;
+        flex-wrap: wrap;
+        transition: 0.4s;
+
+        &:hover {
+          color: #8d8f94;
+        }
+      }
+    }
+
+    .best_offer {
+      padding: 10px;
+      background-color: #e8e8e8;
+      display: flex;
+      align-items: center;
+
+      svg {
+        color: #ca0909;
+        font-size: 25px;
+        margin-right: 7px;
+      }
+
+      span {
+        text-align: center;
+      }
+    }
+  }
+}

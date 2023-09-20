@@ -1,0 +1,25 @@
+.slider_navigation_btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  z-index: 9;
+  font-size: 20px;
+  transition: 0.4s;
+  color: #8d8f94;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.slider_left_arrow {
+  left: -15px;
+}
+
+.slider_right_arrow {
+  right: -15px;
+}

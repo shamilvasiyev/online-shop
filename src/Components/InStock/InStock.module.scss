@@ -1,0 +1,17 @@
+.in_stock,
+.out_of_stock {
+  margin: 15px 0;
+
+  span {
+    padding: 3px 12px 5px;
+    color: white;
+    font-size: 13px;
+    background-color: #4cbb6c;
+  }
+}
+
+.out_of_stock {
+  span {
+    background-color: red !important;
+  }
+}

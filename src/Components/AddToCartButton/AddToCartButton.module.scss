@@ -1,0 +1,55 @@
+.form_wrapper {
+  display: flex;
+
+  input {
+    border: 1px solid black;
+    outline: none;
+    font-size: 18px;
+    width: 40px;
+    text-align: center;
+  }
+
+  .add_to_cart_button {
+    display: flex;
+
+    button {
+      padding: 10px 30px;
+      color: #fff;
+      background-color: #000000;
+      border: 1px solid black;
+      min-width: 200px;
+      margin-left: 15px;
+      cursor: pointer;
+      transition: 0.4s;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.534);
+        border-color: rgba(0, 0, 0, 0.534);
+      }
+    }
+  }
+
+  .wishlist {
+    margin-left: 5px;
+
+    button {
+      background-color: #888888;
+      transition: 0.4s;
+      border: 1px solid #888888;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 19px;
+      cursor: pointer;
+      height: 44px;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.534);
+
+      // background-color: #000000;
+    }
+  }
+}

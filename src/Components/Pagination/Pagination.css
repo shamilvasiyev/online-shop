@@ -1,0 +1,31 @@
+.pagination_container {
+  display: flex;
+  justify-content: space-between;
+  color: #808080;
+  align-items: center;
+}
+.pagination_container p {
+  font-size: 13px;
+}
+.pagination_container ul {
+  list-style: none;
+  display: flex;
+}
+.pagination_container ul li {
+  margin: 0 5px;
+}
+.pagination_container ul li .activePage {
+  background-color: #888888;
+  border: 1px solid #888888;
+}
+.pagination_container ul li button {
+  padding: 10px 15px;
+  background-color: #000;
+  border: 1px solid #000;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+.pagination_container ul li button:hover {
+  background-color: #888888;
+}/*# sourceMappingURL=Pagination.css.map */

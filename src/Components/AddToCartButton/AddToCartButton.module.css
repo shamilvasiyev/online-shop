@@ -1,0 +1,46 @@
+.form_wrapper {
+  display: flex;
+}
+.form_wrapper input {
+  border: 1px solid black;
+  outline: none;
+  font-size: 18px;
+  width: 40px;
+  text-align: center;
+}
+.form_wrapper .add_to_cart_button {
+  display: flex;
+}
+.form_wrapper .add_to_cart_button button {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #000000;
+  border: 1px solid black;
+  min-width: 200px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form_wrapper .add_to_cart_button button:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+  border-color: rgba(0, 0, 0, 0.534);
+}
+.form_wrapper .wishlist {
+  margin-left: 5px;
+}
+.form_wrapper .wishlist button {
+  background-color: #888888;
+  transition: 0.4s;
+  border: 1px solid #888888;
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  height: 44px;
+}
+.form_wrapper .wishlist:hover {
+  background-color: rgba(0, 0, 0, 0.534);
+}/*# sourceMappingURL=AddToCartButton.module.css.map */

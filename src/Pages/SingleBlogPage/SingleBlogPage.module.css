@@ -1,0 +1,35 @@
+.wrapper {
+  padding: 30px 0;
+}
+.wrapper .simple_blog_container .title_box h1 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  padding: 0 0;
+  margin: 5px 0 20px;
+  color: #000;
+  text-transform: capitalize;
+}
+.wrapper .simple_blog_container .blog_cover_photo {
+  text-align: center;
+}
+.wrapper .simple_blog_container .blog_cover_photo img {
+  width: 100%;
+}
+.wrapper .simple_blog_container .blog_content h1 {
+  margin: 20px 0;
+}
+.wrapper .simple_blog_container .blog_content p {
+  margin: 10px 0;
+}
+.wrapper .simple_blog_container .blog_content p span {
+  color: #888 !important;
+}
+.wrapper .simple_blog_container .blog_content .blog_content_photo {
+  margin: 15px 0;
+  text-align: center;
+}
+.wrapper .simple_blog_container .blog_content .blog_content_photo img {
+  max-width: 100%;
+  height: inherit;
+}/*# sourceMappingURL=SingleBlogPage.module.css.map */

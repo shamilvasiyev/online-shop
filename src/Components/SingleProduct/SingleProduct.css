@@ -1,0 +1,186 @@
+.single_product {
+  display: flex !important;
+  margin: 0 auto;
+  width: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.single_product .product_image {
+  width: 100%;
+  height: 300px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+.single_product .product_image a {
+  height: 100%;
+  overflow: hidden;
+}
+.single_product .product_image img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.single_product .product_image .action_buttons {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.33s ease-in-out;
+  z-index: 9;
+}
+.single_product .product_image .action_buttons button {
+  margin: 5px 0;
+  border: transparent;
+  cursor: pointer;
+  padding: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 0.5s ease-out;
+}
+.single_product .product_image .action_buttons button:hover {
+  background-color: black;
+}
+.single_product .product_image .action_buttons button:hover svg path {
+  color: white;
+}
+.single_product:hover .action_buttons {
+  opacity: 1;
+  right: 10px;
+}
+.single_product:hover .product_info a h5 {
+  color: black;
+}
+.single_product .product_info {
+  text-align: left;
+  font-size: 17px;
+}
+.single_product .product_info h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 5px 0;
+  color: #888;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.single_product .product_info span {
+  font-weight: 700;
+  color: black;
+}
+
+.single_product_list {
+  display: flex;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.single_product_list .product_image {
+  min-width: 250px;
+  max-width: 250px;
+  position: relative;
+  height: 300px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.single_product_list .product_image a {
+  height: 100%;
+  overflow: hidden;
+}
+.single_product_list .product_image img {
+  width: 100%;
+}
+.single_product_list .product_image .action_buttons {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.33s ease-in-out;
+  z-index: 9;
+}
+.single_product_list .product_image .action_buttons button {
+  margin: 5px 0;
+  border: transparent;
+  cursor: pointer;
+  padding: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 0.5s ease-out;
+}
+.single_product_list .product_image .action_buttons button:hover {
+  background-color: black;
+}
+.single_product_list .product_image .action_buttons button:hover svg path {
+  color: white;
+}
+.single_product_list:hover .action_buttons {
+  opacity: 1;
+  right: 10px;
+}
+.single_product_list:hover .product_info a h5 {
+  color: black;
+}
+.single_product_list .product_info {
+  font-size: 17px;
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.single_product_list .product_info a h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 5px 0;
+  color: #888;
+  font-weight: 500;
+  transition: 0.4s;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #888;
+  font-size: 20px;
+}
+.single_product_list .product_info .price_box {
+  font-weight: 700;
+  color: black;
+  margin: 15px 0 !important;
+}
+.single_product_list .product_info .product_desc {
+  margin: 10px 0;
+}
+.single_product_list .product_info .product_desc p {
+  font-size: 13px;
+  color: #888;
+}
+.single_product_list .product_info .product_desc .stock {
+  margin: 5px 0;
+}
+.single_product_list .product_info .product_desc .stock span {
+  font-size: 13px;
+  color: white;
+  padding: 5px;
+}
+.single_product_list .product_info .product_desc .inStock span {
+  background-color: #4cbb6c;
+}
+.single_product_list .product_info .product_desc .outOffStock span {
+  background-color: red;
+}/*# sourceMappingURL=SingleProduct.css.map */

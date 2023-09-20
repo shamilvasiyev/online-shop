@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section_wrapper {
+  margin: 50px 0;
+}
+
+.section_header_text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.section_header_text::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #8d8f94;
+  width: 5%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.products_container_wrapper {
+  margin: 40px 0 20px 0;
+
+  /* !!! */
+}
+
+.appear-enter {
+  opacity: 0;
+  transform: translateY(-20%);
+}
+.appear-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 300ms, transform 300ms;
+}
+.appear-exit {
+  transform: translateY(0%);
+
+  opacity: 1;
+}
+.appear-exit-active {
+  opacity: 0;
+  transform: translateY(0%);
+  transition: opacity 300ms, transform 300ms;
+}

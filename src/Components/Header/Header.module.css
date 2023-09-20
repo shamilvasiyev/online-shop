@@ -1,0 +1,101 @@
+:root {
+  --main-gray: #8d8f94;
+}
+
+header {
+  border-bottom: 1px solid #e8e8e8;
+  color: var(--main-gray);
+  font-size: 14px;
+}
+header .header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header .header_container .header_left,
+header .header_container .header_right {
+  display: flex;
+  align-items: center;
+}
+header .header_container .header_left .support_buttons,
+header .header_container .header_left .search_button,
+header .header_container .header_left .cart_button,
+header .header_container .header_right .support_buttons,
+header .header_container .header_right .search_button,
+header .header_container .header_right .cart_button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 0;
+}
+header .header_container .header_left .support_buttons span,
+header .header_container .header_left .search_button span,
+header .header_container .header_left .cart_button span,
+header .header_container .header_right .support_buttons span,
+header .header_container .header_right .search_button span,
+header .header_container .header_right .cart_button span {
+  margin-right: 5px;
+}
+header .header_container .header_left .supportModal,
+header .header_container .header_left .showModal,
+header .header_container .header_right .supportModal,
+header .header_container .header_right .showModal {
+  position: absolute;
+  transform: translateY(0);
+  background-color: white;
+  border: 1px solid var(--main-gray);
+  padding: 10px;
+  z-index: 5;
+}
+header .header_container .header_left .supportModalIcons,
+header .header_container .header_left .search_button,
+header .header_container .header_left .cart_button,
+header .header_container .header_right .supportModalIcons,
+header .header_container .header_right .search_button,
+header .header_container .header_right .cart_button {
+  display: flex;
+  align-items: center;
+}
+header .header_container .header_left .supportModalIcons svg,
+header .header_container .header_left .search_button svg,
+header .header_container .header_left .cart_button svg,
+header .header_container .header_right .supportModalIcons svg,
+header .header_container .header_right .search_button svg,
+header .header_container .header_right .cart_button svg {
+  margin-right: 5px;
+}
+header .header_container .header_left .supportModalIcons,
+header .header_container .header_right .supportModalIcons {
+  margin: 7px 0;
+}
+header .header_container .header_left .showModal,
+header .header_container .header_right .showModal {
+  display: flex;
+  align-items: stretch;
+  transform: translateX(-35%);
+  padding: 0;
+}
+header .header_container .header_left .showModal input,
+header .header_container .header_left .showModal button,
+header .header_container .header_right .showModal input,
+header .header_container .header_right .showModal button {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+header .header_container .header_left .showModal button,
+header .header_container .header_right .showModal button {
+  border-left: 1px solid var(--main-gray);
+  cursor: pointer;
+}
+header .header_container .header_left .cart_button,
+header .header_container .header_right .cart_button {
+  margin-left: 10px;
+  color: black;
+}
+header .header_container .header_left .cart_button svg,
+header .header_container .header_right .cart_button svg {
+  font-size: 20px;
+}/*# sourceMappingURL=Header.module.css.map */

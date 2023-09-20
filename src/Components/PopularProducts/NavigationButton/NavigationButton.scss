@@ -1,0 +1,22 @@
+.navigation_button {
+  color: #8d8f94;
+  margin: 10px 20px;
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  min-width: 100px;
+
+  &:hover {
+    color: black;
+  }
+
+  span {
+    font-size: 15px;
+  }
+}
+
+.navigation_button_active {
+  color: black;
+}

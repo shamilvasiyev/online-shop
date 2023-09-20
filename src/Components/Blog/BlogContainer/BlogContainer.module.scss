@@ -1,0 +1,41 @@
+.blog_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 20px 30px;
+  margin: 20px 0;
+
+  .single_blog {
+    display: flex;
+
+    .blog_img {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .blog_content {
+      max-width: 50%;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h4 {
+        margin: 10px 0 5px 0;
+      }
+
+      p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+      }
+
+      a {
+        bottom: 0;
+      }
+    }
+  }
+}

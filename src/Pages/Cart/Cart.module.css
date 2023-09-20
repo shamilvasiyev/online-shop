@@ -1,0 +1,142 @@
+.card_wrapper {
+  margin: 30px 0;
+}
+.card_wrapper .card {
+  display: flex;
+  justify-content: space-between;
+}
+.card_wrapper .card .card_items,
+.card_wrapper .card .card_items_price {
+  margin: 0 12px;
+  border: 1px solid #ededed;
+}
+.card_wrapper .card .card_items {
+  width: calc(66.6% - 24px);
+}
+.card_wrapper .card .card_items .items_header {
+  padding: 16px;
+  border-bottom: 1px solid #ededed;
+}
+.card_wrapper .card .card_items .items_header h1 {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.card_wrapper .card .card_items .items_content {
+  padding: 16px;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 0 10px;
+  border: 1px solid #ededed;
+  margin-bottom: 10px;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct button {
+  cursor: pointer;
+  background: transparent;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .action_buttons,
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .productTotalPrice,
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .removeProductBox {
+  text-align: center;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .cardProductImageBox {
+  max-width: 70px;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .cardProductImageBox img {
+  width: 100%;
+  vertical-align: middle;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .action_buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .action_buttons button {
+  border-radius: 3px;
+  border: 1px solid #ededed;
+  font-size: 18px;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .action_buttons span {
+  border: 1px solid #ededed;
+  border-left: none;
+  border-right: none;
+  align-self: stretch;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .removeProductBox button {
+  border: none;
+  color: #888888;
+  font-size: 23px;
+}
+.card_wrapper .card .card_items .items_content .cardSimpleProduct .removeProductBox button i {
+  font-style: normal;
+}
+.card_wrapper .card .card_items .items_content h2 {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 400;
+}
+.card_wrapper .card .card_items_price {
+  width: calc(33.3% - 24px);
+}
+.card_wrapper .card .card_items_price .item_commom_info {
+  padding: 16px;
+}
+.card_wrapper .card .card_items_price .item_commom_info .item_price {
+  display: flex;
+  justify-content: space-between;
+  color: #262626;
+}
+.card_wrapper .card .card_items_price .item_commom_info .item_price p {
+  font-weight: 500;
+  font-size: 13px;
+}
+.card_wrapper .card .card_items_price .item_commom_info .item_price span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card_wrapper .card .card_items_price .item_commom_info .buy_button {
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+.card_wrapper .card .card_items_price .item_commom_info .buy_button button {
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #000;
+  border: 1px solid #000;
+  transition: 0.4s;
+}
+.card_wrapper .card .card_items_price .item_commom_info .buy_button button:hover {
+  background-color: #666;
+  border: 1px solid #666;
+}
+.card_wrapper .card .card_items_price .item_commom_info .buy_button .btn_disabled {
+  background-color: #878787;
+  border: 1px solid #878787;
+}
+
+.allProducts {
+  margin: 30px 0;
+  text-align: center;
+}
+.allProducts button {
+  padding: 8px 35px;
+  background-color: #000;
+  border: 1px solid #000;
+  font-size: 14px;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+}
+.allProducts button:hover {
+  background-color: #666;
+  border: 1px solid #666;
+}/*# sourceMappingURL=Cart.module.css.map */

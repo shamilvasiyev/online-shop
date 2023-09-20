@@ -1,0 +1,15 @@
+.products_wrapper {
+  margin: 20px 0;
+}
+.products_wrapper .slick-slide {
+  height: 100%;
+}
+.products_wrapper .products_link {
+  background-color: #ccc;
+  padding: 5px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}/*# sourceMappingURL=ProductsContainer.css.map */

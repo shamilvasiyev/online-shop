@@ -1,0 +1,54 @@
+.social_media {
+  margin: 10px 0;
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid #888888;
+}
+.social_media .facebook {
+  color: #435f9f;
+  border-color: #435f9f;
+}
+.social_media .facebook:hover {
+  background-color: #435f9f;
+  border: 1px solid #435f9f;
+}
+.social_media .twitter {
+  color: #00aaf0;
+  border-color: #00aaf0;
+}
+.social_media .twitter:hover {
+  background-color: #00aaf0;
+  border: 1px solid #00aaf0;
+}
+.social_media .instagram {
+  color: #e1306c;
+  border-color: #e1306c;
+}
+.social_media .instagram:hover {
+  background-color: #e1306c;
+  border: 1px solid #e1306c;
+}
+.social_media .youtube {
+  color: #cd201f;
+  border-color: #cd201f;
+}
+.social_media .youtube:hover {
+  background-color: #cd201f;
+  border: 1px solid #cd201f;
+}
+.social_media .social_media_button {
+  font-size: 16px;
+  height: 35px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-right: 4px;
+  border: 1px solid;
+  transition: 0.4s;
+}
+.social_media .social_media_button:hover {
+  color: white;
+}/*# sourceMappingURL=SocialMediaButtons.module.css.map */
