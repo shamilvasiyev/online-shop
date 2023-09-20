@@ -21,7 +21,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <Nav />
+
       <Routes>
         <Route
           path="/"
